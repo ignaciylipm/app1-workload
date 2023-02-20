@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: App1-System
+  description: App1 Worload Application
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: ipm-team
+  domain: cloud-apps
