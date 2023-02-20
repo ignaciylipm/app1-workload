@@ -1,13 +1,13 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: target-project
+  name: app1-workload
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: target-project
+    app.kubernetes.io/part-of: app1-workload
 spec:
   source:
     git:
-      url: https://git.example.com/my-repo
+      url: https://github.com/ignaciylipm/app1-workload.git
       ref:
         branch: main
