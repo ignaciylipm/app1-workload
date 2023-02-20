@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: target-project
+  name: app1-workload
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=target-project"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=app1-workload"
 spec:
   type: service
   lifecycle: experimental
-  owner: default-team
+  owner: ipm-team
