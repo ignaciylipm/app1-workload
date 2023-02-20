@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: app1-workload
+  description: Ejemplo de despliegue de workload (app1-workload)
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=app1-workload"
 spec:
