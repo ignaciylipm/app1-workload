@@ -8,7 +8,6 @@ metadata:
     - frontend
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=app1-workload"
-
 spec:
   type: service
   lifecycle: experimental
