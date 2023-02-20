@@ -5,6 +5,9 @@ metadata:
   description: Ejemplo de despliegue de workload
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=app1-workload"
+  tags:
+    - nosql
+    - redis
 spec:
   type: service
   lifecycle: experimental
